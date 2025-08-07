@@ -1,8 +1,19 @@
 # Site settings
 title: "LÊ QUỐC DŨNG"
+email: lqdung3@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Chia sẽ mọi điều trong cuộc sống.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lqdungdt.github.io" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: "Lê Quốc Dũng, PhD"
+  email: "lqdung3@gmail.com"
+  bio: "Chia sẻ kiến thức trong cuộc sống."
+  avatar: "/assets/images/avatar.jpg"
+  location: "Vietnam"
 
 # Social media
 social:
@@ -63,14 +74,14 @@ locale: vi_VN
 # Navigation
 navigation:
   - name: "Trang chủ"
-    link: "home"
+    link: "/"
   - name: "Bài viết"
     link: "/blog/"
   - name: "Giảng viên"
-    link: "lecture"
+    link: "https://youtube.com/@thepresentwriter"
     external: true
   - name: "Nghiên cứu"
-    link: "research"
+    link: "https://anchor.fm/thepresentwriter"
     external: true
   - name: "Giới thiệu"
     link: "/about/"
@@ -79,12 +90,22 @@ navigation:
 
 # Custom variables
 brand:
-  tagline: "Minimalist"
+  tagline: "Minimalist Solutions that Maximize Your Life"
   greeting: "Xin Chào!"
   greeting_text: >
-    Cảm ơn bạn đã ghé thăm website của tôi.
+    Cảm ơn bạn đã ghé thăm website của tôi
     Đây là một chia sẻ những điều thú vị trong cuộc sống.
 
+# Categories
+categories:
+  - name: "Minimalism"
+    description: "Cuộc sống tối giản và sống có ý thức"
+  - name: "Viết lách"
+    description: "Nghệ thuật viết lách và sáng tạo nội dung"
+  - name: "Suy nghĩ"
+    description: "Những suy ngẫm về cuộc sống"
+  - name: "Phát triển bản thân"
+    description: "Kỹ năng và mindset"
 
 # Sass/SCSS
 sass:
