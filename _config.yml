@@ -46,9 +46,9 @@ exclude:
 
 # Collections
 collections:
-  posts:
+  pages:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:title/
 
 # Defaults
 defaults:
