@@ -1,0 +1,120 @@
+# Site settings
+title: "The Present Writer"
+email: chi.nguyen@thepresentwriter.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Minimalist solutions that maximize your life. 
+  Chia sẻ về cuộc sống tối giản, nghệ thuật viết lách và cách sống có ý thức.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thepresentwriter.github.io" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: "Chi Nguyen, PhD"
+  email: "chi.nguyen@thepresentwriter.com"
+  bio: "Writer, Content Creator & Minimalist. Chia sẻ về cuộc sống tối giản, nghệ thuật viết lách và cách sống có ý thức trong thế giới hiện đại."
+  avatar: "/assets/images/avatar.jpg"
+  location: "Vietnam"
+
+# Social media
+social:
+  youtube: "https://youtube.com/@thepresentwriter"
+  instagram: "https://instagram.com/thepresentwriter"
+  facebook: "https://facebook.com/thepresentwriter"
+  podcast: "https://anchor.fm/thepresentwriter"
+  email: "chi.nguyen@thepresentwriter.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Chi Nguyen"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Pagination
+paginate: 6
+paginate_path: "/page:num/"
+
+# SEO settings
+lang: vi
+locale: vi_VN
+
+# Navigation
+navigation:
+  - name: "Trang chủ"
+    link: "/"
+  - name: "Blog"
+    link: "/blog/"
+  - name: "YouTube"
+    link: "https://youtube.com/@thepresentwriter"
+    external: true
+  - name: "Podcast"
+    link: "https://anchor.fm/thepresentwriter"
+    external: true
+  - name: "Giới thiệu"
+    link: "/about/"
+  - name: "Liên hệ"
+    link: "/contact/"
+
+# Custom variables
+brand:
+  tagline: "Minimalist Solutions that Maximize Your Life"
+  greeting: "Xin Chào!"
+  greeting_text: >
+    Cảm ơn bạn đã ghé thăm website The Present Writer. 
+    Đây là một "khu vườn xanh yên tĩnh"—theo cách gọi của một bạn độc giả—
+    nơi tôi chia sẻ những suy nghĩ về cuộc sống tối giản, 
+    cách sống có ý thức và nghệ thuật viết lách.
+
+# Categories
+categories:
+  - name: "Minimalism"
+    description: "Cuộc sống tối giản và sống có ý thức"
+  - name: "Viết lách"
+    description: "Nghệ thuật viết lách và sáng tạo nội dung"
+  - name: "Suy nghĩ"
+    description: "Những suy ngẫm về cuộc sống"
+  - name: "Phát triển bản thân"
+    description: "Kỹ năng và mindset"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Timezone
+timezone: Asia/Ho_Chi_Minh
