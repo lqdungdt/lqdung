@@ -74,14 +74,14 @@ locale: vi_VN
 # Navigation
 navigation:
   - name: "Trang chủ"
-    link: "/"
+    link: "home"
   - name: "Bài viết"
     link: "/blog/"
   - name: "Giảng viên"
-    link: "https://youtube.com/@thepresentwriter"
+    link: "lecture"
     external: true
   - name: "Nghiên cứu"
-    link: "https://anchor.fm/thepresentwriter"
+    link: "research"
     external: true
   - name: "Giới thiệu"
     link: "/about/"
@@ -93,7 +93,7 @@ brand:
   tagline: "Minimalist Solutions that Maximize Your Life"
   greeting: "Xin Chào!"
   greeting_text: >
-    Cảm ơn bạn đã ghé thăm website của tôi
+    Cảm ơn bạn đã ghé thăm website của tôi.
     Đây là một chia sẻ những điều thú vị trong cuộc sống.
 
 # Categories
