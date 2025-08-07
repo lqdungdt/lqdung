@@ -1,5 +1,5 @@
 # Site settings
-title: "LÊ QUỐC DŨNG"
+title: "Lê Quốc Dũng"
 email: lqdung2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Chia sẽ mọi điều trong cuộc sống.
@@ -90,22 +90,12 @@ navigation:
 
 # Custom variables
 brand:
-  tagline: "Minimalist Solutions that Maximize Your Life"
+  tagline: "Minimalist"
   greeting: "Xin Chào!"
   greeting_text: >
     Cảm ơn bạn đã ghé thăm website của tôi.
     Đây là một chia sẻ những điều thú vị trong cuộc sống.
 
-# Categories
-categories:
-  - name: "Minimalism"
-    description: "Cuộc sống tối giản và sống có ý thức"
-  - name: "Viết lách"
-    description: "Nghệ thuật viết lách và sáng tạo nội dung"
-  - name: "Suy nghĩ"
-    description: "Những suy ngẫm về cuộc sống"
-  - name: "Phát triển bản thân"
-    description: "Kỹ năng và mindset"
 
 # Sass/SCSS
 sass:
