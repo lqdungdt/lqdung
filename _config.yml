@@ -96,17 +96,6 @@ brand:
     Cảm ơn bạn đã ghé thăm website của tôi
     Đây là một chia sẻ những điều thú vị trong cuộc sống.
 
-# Categories
-categories:
-  - name: "Minimalism"
-    description: "Cuộc sống tối giản và sống có ý thức"
-  - name: "Viết lách"
-    description: "Nghệ thuật viết lách và sáng tạo nội dung"
-  - name: "Suy nghĩ"
-    description: "Những suy ngẫm về cuộc sống"
-  - name: "Phát triển bản thân"
-    description: "Kỹ năng và mindset"
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
