@@ -81,7 +81,7 @@ navigation:
     link: "/lecture/"
   - name: "Nghiên cứu"
     link: "research"
-  - name: "/Lưu niệm/"
+  - name: "Lưu niệm"
     link: "/memory/"
   - name: "Liên hệ"
     link: "/contact/"
