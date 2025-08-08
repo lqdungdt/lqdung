@@ -56,7 +56,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "blog"
+      layout: "post"
       author: "Lê Quốc Dũng"
   - scope:
       path: ""
@@ -80,7 +80,7 @@ navigation:
   - name: "Giảng viên"
     link: "/lecture/"
   - name: "Nghiên cứu"
-    link: "research"
+    link: "/research/"
   - name: "Lưu niệm"
     link: "/memory/"
   - name: "Liên hệ"
