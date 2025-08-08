@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: blog
 title: "Bài viết"
 permalink: /blog/
 ---
