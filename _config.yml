@@ -12,7 +12,7 @@ author:
   name: "Lê Quốc Dũng, PhD"
   email: "lqdung3@gmail.com"
   bio: "Chia sẻ kiến thức trong cuộc sống."
-  avatar: "/assets/images/avatar.PNG"
+  avatar: "/assets/images/avatar.png"
   location: "Vietnam"
 
 # Social media
@@ -56,13 +56,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post
+      layout: "post"
       author: "Lê Quốc Dũng"
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: page
+      layout: "page"
 
 # Pagination
 paginate: 6
@@ -77,7 +77,7 @@ navigation:
   - name: "Trang chủ"
     link: "/"
   - name: "Bài viết"
-    link: "/blog/"
+    link: "/page/"
   - name: "Giảng viên"
     link: "/lecture/"
   - name: "Nghiên cứu"
