@@ -83,8 +83,6 @@ navigation:
     link: "research"
   - name: "/Lưu niệm/"
     link: "/memory/"
-  - name: "Giới thiệu"
-    link: "/about/"
   - name: "Liên hệ"
     link: "/contact/"
 
