@@ -323,7 +323,7 @@ permalink: /
         {% if item.external %}
           <li><a href="{{ item.link }}" target="_blank">{{ item.name | upcase }}</a></li>
         {% else %}
-          <li><a href="{{ item.link }}">{{ item.name | upcase }}</a></li>
+          <li><a href="{{ item.link | relative_url }}">{{ item.name | upcase }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
