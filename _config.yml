@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Chia sẽ mọi điều trong cuộc sống.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lqdungdt.github.io" # the base hostname & protocol for your site
+url: "https://lqdungdt.github.io/lqdung" # the base hostname & protocol for your site
 
 # Author information
 author:
@@ -79,13 +79,10 @@ navigation:
     link: "/blog/"
   - name: "Giảng viên"
     link: "/lecture/"
-    external: true
   - name: "Nghiên cứu"
     link: "research"
-    external: true
   - name: "/Lưu niệm/"
     link: "/memory/"
-    external: true
   - name: "Giới thiệu"
     link: "/about/"
   - name: "Liên hệ"
