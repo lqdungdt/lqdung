@@ -1,0 +1,61 @@
+---
+layout: home
+---
+
+<style>
+  .main-content {
+    max-width: 900px;
+    margin: 50px auto 80px;
+    padding: 0 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    color: #2c3e50;
+    line-height: 1.8;
+  }
+
+  .page-title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 40px 0 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .page-content {
+    font-size: 1.15rem;
+    color: #555;
+  }
+
+  /* Responsive cho màn hình nhỏ */
+  @media (max-width: 768px) {
+    .main-content {
+      margin: 30px 15px 60px;
+      padding: 30px 20px;
+    }
+    .page-title {
+      font-size: 2rem;
+      letter-spacing: 3px;
+      margin: 20px 0 25px;
+    }
+  }
+</style>
+
+<!-- Giữ hero section giống trang chủ nhưng hiện tiêu đề page -->
+<div class="hero-section">
+  <div class="hero-illustration"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">{{ page.title }}</h1>
+    <p class="hero-author">by {{ site.author.name }}</p>
+  </div>
+</div>
+
+<!-- Nội dung chính -->
+<div class="main-content">
+  <h2 class="page-title">{{ page.title }}</h2>
+  <div class="page-content">
+    {{ content }}
+  </div>
+</div>
