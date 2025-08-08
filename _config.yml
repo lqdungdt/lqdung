@@ -56,12 +56,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: post
       author: "Lê Quốc Dũng"
   - scope:
       path: ""
+      type: "pages"
     values:
-      layout: "home"
+      layout: page
 
 # Pagination
 paginate: 6
