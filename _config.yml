@@ -78,10 +78,13 @@ navigation:
   - name: "Bài viết"
     link: "/blog/"
   - name: "Giảng viên"
-    link: "lecture"
+    link: "/lecture/"
     external: true
   - name: "Nghiên cứu"
     link: "research"
+    external: true
+  - name: "/Lưu niệm/"
+    link: "/memory/"
     external: true
   - name: "Giới thiệu"
     link: "/about/"
