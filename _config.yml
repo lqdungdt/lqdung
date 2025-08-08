@@ -77,7 +77,7 @@ navigation:
   - name: "Trang chủ"
     link: "/"
   - name: "Bài viết"
-    link: "/page/"
+    link: "/post/"
   - name: "Giảng viên"
     link: "/lecture/"
   - name: "Nghiên cứu"
