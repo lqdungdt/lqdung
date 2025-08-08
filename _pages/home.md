@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Trang chủ"
-permalink: /
+title: "Giới thiệu"
+permalink: /about/
 ---
 
